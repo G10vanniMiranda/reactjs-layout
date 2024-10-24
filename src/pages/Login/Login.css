@@ -1,0 +1,58 @@
+
+  .app-body{
+    color: #fff;
+    height: 100vh;
+    background-color: #1d1d1d;
+  
+    display: flex;
+  }
+  
+  .section-image{
+    width: 50%;
+    background-color: blue;
+    background-image: url("https://img.freepik.com/fotos-premium/uma-xicara-de-cafe-colorida-com-um-desenho-de-arco-iris-colorido-na-parte-inferior_925062-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-form{
+    width: 50%;
+    padding: 40px 100px;
+    gap: 20px;
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+  
+    background-color: #fff;
+  }
+  
+  .section-form label{
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .section-form input{
+    padding: 10px;
+    
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  
+  .section-form button{
+    color: #fff;
+    padding: .7em;
+    font-size: 1.5em;
+    background-color: #1d1d1d;
+  }
+  
+  .section-form p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1d1d1d;
+    margin-top: 20px;
+    text-decoration: underline black;
+  }
