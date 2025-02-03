@@ -1,13 +1,11 @@
-// import "./App.css"
-// import { Login } from "./pages/Login"
-import { Product } from "./pages/Product"
+import { NavBar } from "./components/NavBar"
 
 function App() {
 
   return (
     <div>
-        {/* <Login /> */}
-        <Product />
+      <NavBar />
+       <h1>Home</h1>
     </div>
   )
 }

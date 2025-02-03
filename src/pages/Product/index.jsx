@@ -1,7 +1,9 @@
+import { NavBar } from "../../components/NavBar"
 import "./Product.css"
 export function Product(){
     return(
         <div className="body-Product">
+            <NavBar />
             <section className="section-image"></section>
             <section className="section-card">
                 
